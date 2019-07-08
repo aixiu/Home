@@ -6,17 +6,15 @@
 -->
 <html>
 	<head>
-		<title>量子广告设计制作工作室丨协作发展，畅想双赢。</title>
+		<title>量子广告设计制作工作室丨协作发展 畅想双赢</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="shortcut icon" type="image/ico" href="http://blog.ynxiu.com/images/apple-touch-icon-next.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="http://blog.ynxiu.com/images/apple-touch-icon-next.png">
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="loading">
+	<body class="is-preload">
 		<div id="wrapper">
 			<div id="bg"></div>
 			<div id="overlay"></div>
@@ -28,12 +26,12 @@
 						<p>&nbsp;&bull;&nbsp; 协作发展 &nbsp;&bull;&nbsp; 畅想双赢 &nbsp;&bull;&nbsp;</p>
 						<nav>
 							<ul>
-								<li><a href="https://www.ynxiu.com/" target="_blank" class="icon fa-home" title="个人主页"><span class="label">Index</span></a></li>
-								<li><a href="https://blog.ynxiu.com/" target="_blank" class="icon fa-book" title="个人博客"><span class="label">Blog</span></a></li>
-								<li><a href="https://aixiu.github.io/CheckChrome/" target="_blank" class="icon fa-chrome" title="Chrome离线包下载"><span class="label">Chrome</span></a></li>
-								<li><a href="https://k.hyage.com/" target="_blank" class="icon fa-headphones" title="量子在线音乐盒"><span class="label">Player</span></a></li>
-								<li><a href="http://m.hyage.com/" target="_blank" class="icon fa-play" title="音乐搜索下载"><span class="label">PlayerD</span></a></li>
-								<li><a href="http://mv.hyage.com/" target="_blank" class="icon fa-instagram" title="在线看"><span class="label">MV</span></a></li>
+								<li><a href="https://www.ynxiu.com/" class="icon solid fa-home" title="个人主页" target="_blank"><span class="label">Index</span></a></li>
+								<li><a href="http://blog.ynxiu.com/" class="icon solid fa-book-open" title="个人博客" target="_blank"><span class="label">Blog</span></a></li>
+								<li><a href="https://aixiu.github.io/CheckChrome/" class="icon brands fa-chrome" title="Chrome离线包下载" target="_blank"><span class="label">Chrome</span></a></li>
+								<li><a href="https://k.hyage.com/" class="icon solid fa-headphones-alt" title="量子在线音乐盒" target="_blank"><span class="label">Player</span></a></li>
+								<li><a href="http://m.hyage.com/" class="icon solid fa-play" title="音乐搜索下载" target="_blank"><span class="label">PlayerD</span></a></li>
+								<li><a href="http://mv.hyage.com/" class="icon brands fa-chrome" title="在线看" target="_blank"><span class="label">MV</span></a></li>
 							</ul>
 						</nav>
 					</header>
@@ -45,9 +43,8 @@
 
 			</div>
 		</div>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 		<script>
-			window.onload = function() { document.body.className = ''; }
+			window.onload = function() { document.body.classList.remove('is-preload'); }
 			window.ontouchmove = function() { return false; }
 			window.onorientationchange = function() { document.body.scrollTop = 0; }
 		</script>
